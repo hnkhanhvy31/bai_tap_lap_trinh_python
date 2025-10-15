@@ -11,13 +11,23 @@ class tam_giac:
 class tam_giac_vuong(tam_giac):
     def __init__(self,a,b,c):
         super().__init__(a,b,c)
-
+    def dien_tich(self):    
+        if self.a**2+self.b**2==self.c**2:
+            return self.a*self.b
+        if self.a**2+self.c**2==self.b**2:
+            return self.a*self.c
+        if self.c**2+self.b**2==self.a**2:
+            return self.b*self.c
+        else:
+            print("khong tam giac vuong")
+    def display(self):
+        print(self.dien_tich())
 class tam_giac_can(tam_giac):
-    def __init__(self,a,b,c,canhdeu, canhlon):
+    def __init__(self,a,b,c):
         super().__init__(a,b,c)
-        self.canhdeu=canhdeu
-        self.canhlon=canhlon
-
+    def dien_tich(self):
+        if self.a==self.b:
+            pass
 class tam_giac_deu(tam_giac_can):
     def __init__(self,a,b,c,canhdeu,canhlon,canh):
         super().__init__(self,a,b,c,canhdeu,canhlon)
