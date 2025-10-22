@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<congty> 
+    <ten_cong_ty>Cong ty abc</ten_cong_ty>
+    <giam_doc>
+        <ten_giam_doc>Nguyen Van A</ten_giam_doc> 
+    </giam_doc>
+    <dia_chi> </dia_chi>
+    <so_dien_thoai>0123456789</so_dien_thoai>
+    <ma_so_thue>011111111111</ma_so_thue>
+</congty>
